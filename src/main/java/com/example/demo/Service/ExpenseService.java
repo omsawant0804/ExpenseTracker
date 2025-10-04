@@ -93,7 +93,7 @@ public class ExpenseService {
                 expense.setDate(expenseRequest.getDate());
                 update=true;
             }
-            if (expenseRequest.getNote() != null) {
+            if (expenseRequest.getNote() != null && !expenseRequest.getNote().isBlank()) {
                 expense.setNote(expenseRequest.getNote());
                 update=true;
             }

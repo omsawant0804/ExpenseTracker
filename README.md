@@ -289,6 +289,7 @@ Resposne :
 ```
 
 ## Struture I follow : Layered Architecture
+**Note : If you have changed server port in application.properties change here too ```8080--> you port```. If you are using server address change ```localhost-->your ip address```**
 ### For Controller layer
 similar for every function in controller
 ```
